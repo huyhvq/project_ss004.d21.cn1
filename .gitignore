@@ -1,0 +1,77 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# The .vs directory contains Visual Studio Code metadata
+.vs/
+
+# CLion IDE files
+.idea/
+
+# Ignore build directory
+build/
+cmake-build-debug/
+
+# Backup files
+*~
+
+# Other files to ignore
+*.log
+*.swp
+*.bak
+*.tmp
+*.bdf
+*.ttf
+*.otf
+*.bbl
+*.blg
+*.class
+*.com
+*.dll
+*.exe
+*.o
+*.so
+*.log
+*.aux
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.pdf
+*.lof
+*.fls
+*.fdb_latexmk
+*.synctex.gz(busy)
