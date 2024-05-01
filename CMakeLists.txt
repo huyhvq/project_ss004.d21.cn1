@@ -10,4 +10,4 @@ add_executable(snake src/main.cpp
         src/config.h
         src/animation.cpp
         src/animation.h
-)
+ "src/ui_screen.cpp" "src/ui_screen.h" "src/food.h"  "src/food.cpp" "src/snake.h" "src/snake.cpp")
