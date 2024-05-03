@@ -12,4 +12,6 @@ add_executable(snake src/main.cpp
         src/animation.h
         src/ui_screen.cpp
         src/ui_screen.h
+	src/snake.cpp
+	src/snake.h
 )
