@@ -2,6 +2,8 @@
 #ifndef SNAKE_H
 #define SNAKE_H
 
+#include "point.h"
+
 class Snake {
 public:
     Point dotRan[500];
@@ -11,6 +13,13 @@ public:
 
     Snake();
     void khoiTaoThanRan();
+    void diChuyen(int Huong);
+    void ranDiChuyenQuaTuong();
+    void veConRan();
+    void veThanRan();
+    void veDauRan();
+    void xoaDotCuoi();
+    void xoaConRan();
 };
 
 #endif //SNAKE_H
