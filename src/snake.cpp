@@ -34,17 +34,17 @@ void Snake::diChuyen(int Huong)
         lonLen = false;
 
     // vị trí đầu rẵn sẽ là vị trí thân rắn khi di chuyên
-    diChuyenCotDong(dotRan[0].cot, dotRan[0].dong);
+    diChuyenCotDong(dotRan[0].cot,dotRan[0].dong);
     std::cout << "+";
 
-    for (int i = doDai - 1; i > 0; i--)
-        dotRan[i] = dotRan[i - 1];
-    if (Huong == 0) dotRan[0].cot = dotRan[0].cot + 1;// rẽ phải
-    if (Huong == 1) dotRan[0].dong = dotRan[0].dong + 1;// đi xuống
-    if (Huong == 2) dotRan[0].cot = dotRan[0].cot - 1;// rẽ trái
-    if (Huong == 3) dotRan[0].dong = dotRan[0].dong - 1;// đi lên
+    for (int i = doDai-1; i>0; i--)
+        dotRan[i] = dotRan[i-1];
+    if (Huong==0) dotRan[0].cot = dotRan[0].cot + 1;// rẽ phải
+    if (Huong==1) dotRan[0].dong = dotRan[0].dong + 1;// đi xuống
+    if (Huong==2) dotRan[0].cot = dotRan[0].cot - 1;// rẽ trái
+    if (Huong==3) dotRan[0].dong = dotRan[0].dong - 1;// đi lên
 
     // Điều chỉnh tọa độ nếu rắn đi qua tường
-    if (choPhepQuaTuong)
+    if(choPhepQuaTuong)
         ranDiChuyenQuaTuong();
 }
