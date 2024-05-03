@@ -18,4 +18,6 @@ add_executable(snake src/main.cpp
         src/snake.h
         src/food.cpp
         src/food.h
+        src/handler.cpp
+        src/handler.h
 )
