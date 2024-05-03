@@ -2,6 +2,8 @@
 #ifndef SNAKE_H
 #define SNAKE_H
 
+#include "point.h"
+
 class Snake {
 public:
     Point dotRan[500];
