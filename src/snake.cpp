@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 #include "snake.h"
 #include "animation.h"
