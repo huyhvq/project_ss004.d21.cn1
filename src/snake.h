@@ -20,6 +20,12 @@ public:
     void veDauRan();
     void xoaDotCuoi();
     void xoaConRan();
+    void veConRanChet();
+    bool ktConRanPhamQuy();
+    bool ktConRanChamKhung();
+    void anConMoi();
+    bool ktDungConMoi();
+    void lamMoiRan();
 };
 
 #endif //SNAKE_H
