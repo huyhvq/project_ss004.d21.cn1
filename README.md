@@ -21,6 +21,7 @@ This project uses CMake for building. To install and run the game, follow these 
 5. Build the project: `cmake --build .`
 
 ## Usage
+test
 
 After building the project, you can run the game with the following command:
 
