@@ -40,8 +40,6 @@ The project has the following structure:
 - `.github/workflows/`: This directory contains the GitHub Actions workflow for CI.
 - `.gitignore`: This file specifies the files and directories to be ignored by Git.
 
-Remember to replace the placeholders with the actual descriptions of what each file and directory does in your project.
-
 ## Contributing
 Contributions are welcome!
 ## License

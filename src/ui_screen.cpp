@@ -102,7 +102,7 @@ void hienThiThongTin() {
     inGiuaCot1Cot2(gocTraiTren.cot + 18, gocPhaiDuoi.cot, gocTraiTren.dong - 2,
                    "[ Phạm Trấn Hào <23730083@ms.uit.edu.vn> | Phan Hoàng Thái <23730124@ms.uit.edu.vn> ]");
     inGiuaCot1Cot2(gocTraiTren.cot + 18, gocPhaiDuoi.cot, gocTraiTren.dong - 1,
-                   "[ Huỳnh Viết Quang Huy <23730090@ms.uit.edu.vn> | Nguyễn Thuỵ Nghi Quân <23730090@ms.uit.edu.vn>]");
+                   "[ Huỳnh Viết Quang Huy <23730090@ms.uit.edu.vn> | Nguyễn Thuỵ Nghi Quân <23730117@ms.uit.edu.vn>]");
 }
 
 void inGiuaCot1Cot2(int cot1, int cot2, int dong, string noiDung) {
